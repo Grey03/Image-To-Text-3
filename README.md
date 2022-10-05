@@ -13,3 +13,6 @@ In the settings.json file you will see "ComplexThemes" this is something that ca
  I will explain the Complex mode here due to it not being said and not so simple. First it looks at the theme chosen. It then divides 256(The max brightness) by the number of symbols in the theme. This leaves each theme an equal portion of the brightness scale. A selected pixel will find the nearest symbol and use that for its spot. It is simple mode but with different symbols on brightness. It takes a bit longer because it has to first get the pixel data and then find out what it is closest to which takes time.
  
  
+Installation for Python Vers.
+1. Pip install "customtkinter, piillow, numpy"
+2. Run main.py
