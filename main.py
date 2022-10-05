@@ -1,10 +1,8 @@
 #Imports
 from fileinput import filename
-from inspect import BoundArguments
 
 import tkinter
 from tkinter import filedialog
-from turtle import resetscreen
 
 import customtkinter
 
