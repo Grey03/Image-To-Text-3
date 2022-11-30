@@ -14,5 +14,5 @@ In the settings.json file you will see "ComplexThemes" this is something that ca
  
  
 Installation for Python Vers.
-1. Pip install "customtkinter, piillow, numpy"
+1. Pip install "customtkinter, pillow, numpy"
 2. Run main.py
