@@ -53,6 +53,7 @@ complexTheme = "Normal"
 root = customtkinter.CTk()
 root.title("Img2Txt 3.0")
 root.geometry("595x270")
+root.resizable(False, False)
 
 PATH = os.path.dirname(os.path.realpath(__file__))
 root.iconbitmap(PATH + "/materials/Logo.ico")
