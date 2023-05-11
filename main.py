@@ -318,7 +318,7 @@ def helpmenu():
 
     menu.title("Help Menu")
 
-    helpTitle = customtkinter.CTkLabel(master=menu, text="Welcome to the Help Menu!\n", text_font=(0,12))
+    helpTitle = customtkinter.CTkLabel(master=menu, text="Welcome to the Help Menu!\n", font=(0,12))
     helpTitle.pack()
 
     aboutSection = customtkinter.CTkLabel(master=menu, text=("Hello and welcome to Text To Image!\nThis program takes an image and creates text in a file to look like it.\nThis have been a project that I keep redoing with slight improvements.\nThere are 3 modes that have different unique outputs.\n"))
@@ -361,7 +361,7 @@ def settingsmenu():
 
     menu.title("Settings Menu")
 
-    settingsTitle = customtkinter.CTkLabel(master=menu, text="Welcome to the Settings Menu!", text_font=(0,12))
+    settingsTitle = customtkinter.CTkLabel(master=menu, text="Welcome to the Settings Menu!", font=(0,12))
     settingsTitle.grid(row=0,column=0,pady=10)
 
     simpleKey = customtkinter.CTkEntry(master=menu, placeholder_text=("Current Simple Letter: " + str(settings["SimpleSym"])), width=250)
