@@ -2,7 +2,7 @@
 from fileinput import filename
 
 import tkinter
-from tkinter import *
+from tkinter import filedialog
 
 import customtkinter
 
@@ -555,7 +555,7 @@ def mainmenu():
     #PUT THIS HERE CAUSE I JUST WANA LAUCH 3.0 AND TOO LAZY TO GET PATH UP THERE
     
 
-    imgSelectIcon = PhotoImage(Image.open(PATH + "/materials/image_icon.png"))
+    imgSelectIcon = customtkinter.CTkImage(light_image=Image.open(PATH + "/materials/image_icon.png"))
 
     imgSelectButton = customtkinter.CTkButton(master=root, text="",width=50, height=50, image=imgSelectIcon,command=selectimage)
     imgSelectButton.grid(row=0, column=0, pady=10, padx=10)
@@ -569,7 +569,7 @@ def mainmenu():
     
 
     
-    settingsIcon = PhotoImage(Image.open(PATH + "/materials/settings_icon.png"))
+    settingsIcon = customtkinter.CTkImage(light_image=Image.open(PATH + "/materials/settings_icon.png"))
 
     settingsButton = customtkinter.CTkButton(master=root, text="",width=50, height=50, image=settingsIcon ,command=stmenustart)
     settingsButton.grid(row=0, column=2, pady=10, padx=10)
